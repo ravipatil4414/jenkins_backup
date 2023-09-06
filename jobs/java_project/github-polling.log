@@ -1,0 +1,13 @@
+Started on Sep 5, 2023, 11:21:32 AM
+Started by event from 140.82.115.29 ⇒ http://3.110.131.108:8080/github-webhook/ on Tue Sep 05 11:21:31 UTC 2023
+Using strategy: Default
+[poll] Last Built Revision: Revision fea67669fae120f66b3656d2fc2c4b8bb6b4ff97 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git ls-remote -h -- https://github.com/ravipatil4414/java_project.git # timeout=10
+Found 1 remote heads on https://github.com/ravipatil4414/java_project.git
+[poll] Latest remote head revision on refs/heads/master is: cf04080f02539fb19acedd3742f0fb6f60aeeff5
+Done. Took 0.75 sec
+Changes found

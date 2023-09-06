@@ -1,0 +1,26 @@
+Started by user [8mha:////4DTbJnBYl1C7dn+l5ZFzEKAS5P5wh8tt+yr1N1Eq0w9DAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9osSyTAABvfQgvwAAAA==[0mravi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/java_project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ravi0145/Jenkins_Pro.git
+ > git init /var/lib/jenkins/workspace/java_project # timeout=10
+Fetching upstream changes from https://github.com/ravi0145/Jenkins_Pro.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/ravi0145/Jenkins_Pro.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ravi0145/Jenkins_Pro.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4d817ada70a78b249db518354b42163ca35c0ae6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4d817ada70a78b249db518354b42163ca35c0ae6 # timeout=10
+Commit message: "Update index.jsp"
+First time build. Skipping changelog.
+[java_project] $ /bin/sh -xe /tmp/jenkins6160855394880801168.sh
++ cd /var/lin/jenkins/workspace/java_project
+/tmp/jenkins6160855394880801168.sh: line 2: cd: /var/lin/jenkins/workspace/java_project: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

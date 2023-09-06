@@ -1,0 +1,26 @@
+Started by user [8mha:////4DTbJnBYl1C7dn+l5ZFzEKAS5P5wh8tt+yr1N1Eq0w9DAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9osSyTAABvfQgvwAAAA==[0mravi
+Running as SYSTEM
+Building remotely on [8mha:////4EUTi8mtd/YXahEumwmFIR8ShasNaJprsYK7kkbcgA5+AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYR/eT83ILSktQi/eKcxLLUeJCRAB+uckLJAAAA[0mslave_java in workspace /home/ec2-user/workspace/java_project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ravipatil4414/java_project.git
+ > git init /home/ec2-user/workspace/java_project # timeout=10
+Fetching upstream changes from https://github.com/ravipatil4414/java_project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/ravipatil4414/java_project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ravipatil4414/java_project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision fea67669fae120f66b3656d2fc2c4b8bb6b4ff97 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fea67669fae120f66b3656d2fc2c4b8bb6b4ff97 # timeout=10
+Commit message: "Update index.jsp"
+ > git rev-list --no-walk fea67669fae120f66b3656d2fc2c4b8bb6b4ff97 # timeout=10
+[java_project] $ /bin/sh -xe /tmp/jenkins9170854106754140974.sh
++ cd /var/lib/jenkins/workspace/java_project
+/tmp/jenkins9170854106754140974.sh: line 2: cd: /var/lib/jenkins/workspace/java_project: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

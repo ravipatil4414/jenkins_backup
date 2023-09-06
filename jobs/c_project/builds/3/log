@@ -1,0 +1,23 @@
+Started by GitHub push by ravipatil4414
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c_project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c_project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ravipatil4414/c_project.git # timeout=10
+Fetching upstream changes from https://github.com/ravipatil4414/c_project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.3'
+ > git fetch --tags --force --progress -- https://github.com/ravipatil4414/c_project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f2f2d9c8c840814e6ee0ce69bd29e8258e16de33 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f2f2d9c8c840814e6ee0ce69bd29e8258e16de33 # timeout=10
+Commit message: "Update file1"
+ > git rev-list --no-walk 1021df6052eec900c96af921adb84f950f7f6d32 # timeout=10
+[c_project] $ /bin/sh -xe /tmp/jenkins14833484489921434697.sh
++ cd /var/lib/jenkins/workspace/c_project
++ make ABC.exe
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS
